@@ -53,6 +53,6 @@ Tree verification:
 ***************Working parts********************************
 1. Balanced search tree(BSTree.java) and Huffman tree(HCTree.java) are both working correctly.
 2. An awesome graphic user interface program(integrityVerifier.java) is built for this project.
-3. If you prefer use the programs in terminal, type "java BSTree" or "java HCTree" to get the usages.
+3. If you prefer to use the programs in terminal, type "java BSTree" or "java HCTree" to get the usages.
 
 
