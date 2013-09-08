@@ -2,6 +2,7 @@ Program Description
 =========
 
 Part 1: Integrity verification
+------------------------------
 
 For this part of the project the goal is to write software for creating data structures, with embedded information, that will subsequently be used to determine whether the original data was modified or not.
 
@@ -16,6 +17,7 @@ Given n sorted and distinct data items d_1 < d_2 < ... < d_n, the goal is to wri
 3. encodes a hash-based message authentication code (HMAC) of the concatenation of all the (d_i)s (in sorted order).
 
 Part 1b: A Huffman coding tree
+------------------------------
 
 Given a message M (as an array of bytes) and an alphabet Σ of n symbols along with their respective probabilities, the goal is to write software that creates a Huffman tree T that
 
@@ -24,6 +26,7 @@ Given a message M (as an array of bytes) and an alphabet Σ of n symbols along w
 2. encodes a hash-based message authentication code (HMAC) of the message being compressed.
 
 Part 2: Pinpointing the corrupted item
+--------------------------------------
 
 This part will use the binary search tree from part 1a. Because for large n the θ_T is so much longer than the number of bits in an HMAC, this part consists of storing 1 + log n HMACs in the θ_T , using the scheme presented at
 CombinatorialGroupTesting.pdf.
