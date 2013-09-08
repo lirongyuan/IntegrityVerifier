@@ -1,4 +1,6 @@
-***************Program Description**************************
+Program Description
+=========
+
 Part 1: Integrity verification
 For this part of the project the goal is to write software for creating data structures, with embedded information, that will subsequently be used to determine whether the original data was modified or not.
 
@@ -18,7 +20,8 @@ This part will use the binary search tree from part 1a. Because for large n the 
 CombinatorialGroupTesting.pdf
 The goal of the software is that, given the n sorted items and the HMAC key K, produces the tree T with the 1 + log n HMACs stored in its θ_T (as many times as will fit). You have to also write software that, given a properly created T, pinpoints which item (if any) has been modified.
 
-***************Instructions*********************************
+Instructions
+=========
 In terminal, type the following:
 $ javac integrityVerifier.java
 $ java integrityVerifier
@@ -50,7 +53,8 @@ Tree verification:
   Tree File: BST/2_clean.txt or BST/2_dirty.txt
   Key File: BST/test_key.txt
 
-***************Working parts********************************
+Working parts
+=========
 1. Balanced search tree(BSTree.java) and Huffman tree(HCTree.java) are both working correctly.
 2. An awesome graphic user interface program(integrityVerifier.java) is built for this project.
 3. If you prefer to use the programs in terminal, type "java BSTree" or "java HCTree" to get the usages.
