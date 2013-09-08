@@ -34,51 +34,52 @@ Instructions
 =========
 In terminal, type the following:
 
+```
 $ javac integrityVerifier.java
-
 $ java integrityVerifier
+```
 
 A. Input for part1a:
 
 Tree construction:
 
-  Data File: BST/bst_test_data.txt
+* Data File: BST/bst_test_data.txt
 
-  Key File: BST/test_key.txt
+* Key File: BST/test_key.txt
 
 Tree verification:
 
-  Tree File: BST/1a_clean.txt or BST/1a_dirty.txt
+* Tree File: BST/1a_clean.txt or BST/1a_dirty.txt
 
-  Key File: BST/test_key.txt
+* Key File: BST/test_key.txt
 
 B. Input for part1b:
 
 Tree construction:
 
-  Message File: HCT/huff_test_mssg.txt
+* Message File: HCT/huff_test_mssg.txt
 
-  Key File: HCT/test_key.txt
+* Key File: HCT/test_key.txt
 
 Tree verification:
 
-  Tree File: HCT/1b_dirty.txt or HCT/1b_clean.txt
+* Tree File: HCT/1b_dirty.txt or HCT/1b_clean.txt
 
-  Key File: HCT/test_key.txt
+* Key File: HCT/test_key.txt
 
 C. Input for part2:
 
 Tree construction:
 
-  Data File: BST/bst_test_data.txt
+* Data File: BST/bst_test_data.txt
 
-  Key File: BST/test_key.txt
+* Key File: BST/test_key.txt
 
 Tree verification:
 
-  Tree File: BST/2_clean.txt or BST/2_dirty.txt
+* Tree File: BST/2_clean.txt or BST/2_dirty.txt
 
-  Key File: BST/test_key.txt
+* Key File: BST/test_key.txt
 
 Working parts
 =========
