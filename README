@@ -1,0 +1,12 @@
+***************Instruction to run the program***************
+Step 1: Execute "javac integrityVerifier.java" in terminal.
+Step 2: Execute "java integrityVerifier" in terminal.
+
+
+***************Working parts********************************
+1. Balanced search tree(BSTree.java) and Huffman tree(HCTree.java) are both working correctly.
+2. An awesome graphic user interface program(integrityVerifier.java) is built for this project.
+3. If you do not know where to start, run the instructions above first.
+4. Type "java BSTree" or "java HCTree" to get the usages for the two programs.
+
+
